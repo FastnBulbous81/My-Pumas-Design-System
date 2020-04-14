@@ -1,0 +1,57 @@
+/* Header */
+
+header h1 {
+    font-size: 80px;
+    text-align: center;
+    color: rgba(0, 0, 0, .9);
+    padding: 50px 0;
+}
+
+#banner {
+    background-color: rgb(22, 160, 133);
+}
+
+/* Colour Section */
+
+.color-section {
+    width: 100%;
+    text-align: center;
+}
+
+.color-box {
+    margin: 0 40px;
+    display: inline-block;
+}
+
+.color-samples {
+    height: 130px;
+    width: 150px;
+}
+
+.color-label {
+
+}
+
+#dark-green {
+    background-color: rgb(22, 160, 133);
+}
+
+#summer-yellow {
+    background-color: rgb(244, 208, 63);
+}
+
+#light-blue {
+    background-color: rgb(174, 214, 241);
+}
+
+#sky-blue {
+    background-color: rgb(133, 193, 233);
+}
+
+#pale-green {
+    background-color: rgb(209, 242, 235);
+}
+
+#light-green {
+    background-color: rgb(163, 228, 215);
+}
