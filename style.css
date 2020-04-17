@@ -88,11 +88,11 @@ p {
 
 /* Font Section */
 
-div.font-box {
-    height: auto;
+.font-box {
     display: block;
     margin: 10px auto;
     width: 60%;
+    height: auto;
     border-radius: 8px;
     padding: 0 20px 15px 15px;
     background-color: rgb(163, 228, 215);
@@ -105,16 +105,17 @@ div.font-box {
 }
 
 .font-weight {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     background-color: white;
     border-radius: 5px;
+    text-align: center;
 }
 
 .font-demo {
-    font-family: "VT323";
     font-size: 1.5rem;
-    height: 20px;
-    padding-bottom: 8px;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
 }
 
 #rubik {
@@ -163,7 +164,7 @@ div.font-box {
 #p-example {
     font-family: "Cabin";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 #figcaption-example {
@@ -173,7 +174,8 @@ div.font-box {
 }
 
 .page-element-attributes {
-    margin: 4px auto;
+    margin: 12px auto;
+    margin-bottom: 4px;
     padding: 7px 14px;
     background-color: white;
     border-radius: 5px;
