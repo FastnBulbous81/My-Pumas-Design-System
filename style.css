@@ -5,31 +5,61 @@ header h1 {
     text-align: center;
     color: rgba(0, 0, 0, .9);
     padding: 50px 0;
+    font-family: "Rubik";
 }
 
 #banner {
     background-color: rgb(22, 160, 133);
 }
 
-/* Colour Section */
-
-.color-section {
-    width: 100%;
-    text-align: center;
+#puma {
+    font-weight: 400;
+    font-family: "Cabin";
 }
 
+/* Section Globals */
+
+.section-heading {
+    font-family: "Rubik";
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(244, 208, 63);
+}
+
+section {
+    width: 100%;
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-family: "VT323";
+    font-size: 1.5rem;
+    height: 20px;
+}
+
+p {
+    font-family: "Cabin";
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Colour Section */
+
 .color-box {
-    margin: 0 40px;
+    margin: 15px 10px;
     display: inline-block;
 }
 
 .color-samples {
     height: 130px;
     width: 150px;
+    border-radius: 15px;
 }
 
 .color-label {
-
+    line-height: 130%;
 }
 
 #dark-green {
@@ -54,4 +84,83 @@ header h1 {
 
 #light-green {
     background-color: rgb(163, 228, 215);
+}
+
+/* Font Section */
+
+.font-box {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    background-color: rgb(163, 228, 215);
+    font-size: 20px;
+}
+
+.font-sample {
+    font-size: 4rem;
+    font-style: normal;
+}
+
+.font-demo {
+    font-size: 1.8rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#rubik {
+    font-family: "Rubik";
+}
+
+#cabin {
+    font-family: "Cabin";
+}
+
+#vt323 {
+    font-family: "VT323";
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Page Elements Section */
+
+.page-element-box {
+    width: 80%;
+    margin: 0 10%;
+}
+
+#h1-example {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#h2-example {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 26px;
+}
+
+#p-example {
+    font-family: "Cabin";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#figcaption-example {
+    font-family: "VT323";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.page-element-attributes {
+    padding: 0 30%;
 }

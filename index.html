@@ -3,46 +3,132 @@
     <head>
         <title>Web Design System</title>
         <link rel="stylesheet" href="./style.css">
+        <link href="https://Fonts.googleapis.com/css?family=Cabin:400,400i,700|Rubik:400,700|VT323&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="banner">
             <header>
-                <h1>MyPumas Design System</h1>
+                <h1>My<span id="puma">Puma</span> Design System</h1>
             </header>
         </div> 
         <main>
-            <section class="color-section">
+            <section>
+
+                <h2 class="section-heading">Colours</h2>
 
                 <div class="color-box">
-                    <div class="color-samples" id="dark-green"></div>
-                    <h3 class="color-label">Dark Green</h3>
+                    <figure class="color-samples" id="dark-green"></figure>
+                    <figcaption class="color-label">
+                        Dark Green<br>
+                        rgb(22, 160, 133)
+                    </figcaption>
                 </div>
                 
                 <div class="color-box">
-                    <div class="color-samples" id="summer-yellow"></div>
-                    <h3 class="color-label">Summer Yellow</h3>
+                    <figure class="color-samples" id="summer-yellow"></figure>
+                    <figcaption class="color-label">
+                        Summer Yellow<br>
+                        rgb(244, 208, 63)
+                    </figcaption>
                 </div>
                 
                 <div class="color-box">
-                    <div class="color-samples" id="light-blue"></div>
-                    <h3 class="color-label">Light Blue</h3>
+                    <figure class="color-samples" id="light-blue"></figure>
+                    <figcaption class="color-label">
+                        Light Blue<br>
+                        rgb(174, 214, 241)
+                    </figcaption>
                 </div>
                 
                 <div class="color-box">
-                    <div class="color-samples" id="sky-blue"></div>
-                    <h3 class="color-label">Sky Blue</h3>
+                    <figure class="color-samples" id="sky-blue"></figure>
+                    <figcaption class="color-label">
+                        Sky Blue<br>
+                        rgb(133, 193, 233)
+                    </figcaption>
                 </div>
 
                 <div class="color-box">
-                    <div class="color-samples" id="pale-green"></div>
-                    <h3 class="color-label">Pale Green</h3>
+                    <figure class="color-samples" id="pale-green"></figure>
+                    <figcaption class="color-label">
+                        Pale Green<br>
+                        rgb(209, 242, 235)
+                    </figcaption>
                 </div>
                 
                 <div class="color-box">
-                    <div class="color-samples" id="light-green"></div>
-                    <h3 class="color-label">Light Green</h3>
+                    <figure class="color-samples" id="light-green"></figure>
+                    <figcaption class="color-label">
+                        Light Green<br>
+                        rgb(163, 228, 215)
+                    </figcaption>
                 </div>
 
+            </section>
+
+            <section>
+
+                <h2 class="section-heading">Fonts</h2>
+                
+                <div class="Font-box">
+                    <h3 class="Font-sample" id="rubik">Rubik</h3>
+                    <figure class="Font-demo" id="rubik">| Plain | <span class="bold">Bold</span> |</figure>
+                    <figcaption id="rubik">Silver mist suffused the deck of the ship.</figcaption>
+                </div>
+
+                <div class="Font-box">
+                    <h3 class="Font-sample" id="cabin">Cabin</h3>
+                    <figure class="Font-demo" id="cabin">| Plain | <span class="italic">Italic</span> | <span class="bold">Bold</span> |</figure>
+                    <figcaption id="cabin">A shining crescent far beneath the flying vessel.</figcaption>
+                </div>
+
+                <div class="Font-box">
+                    <h3 class="Font-sample" id="vt323">VT323</h3>
+                    <figure class="Font-demo" id="vt323">| Plain |</figure>
+                    <figcaption id="vt323">The face of the moon was in shadow.</figcaption>
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2 class="section-heading">Page Elements</h2>
+
+                <div class="page-element-box">
+                    <div id="h1-example">h1: Main Page Heading</div>
+                    <p class="page-element-attributes">
+                        Font-family: "Rubik"<br>
+                        Font-weight: 700<br>
+                        Font-size: 28px
+                    </p>
+                </div>
+
+                <div class="page-element-box">
+                    <div id="h2-example">h2: Subheading</div>
+                    <p class="page-element-attributes">
+                        Font-family: "Rubik"<br>
+                        Font-weight: 400<br>
+                        Font-size: 26px
+                    </p>
+                </div>
+
+                <div class="page-element-box">
+                    <div id="p-example">p: Paragraph</div>
+                    <p class="page-element-attributes">
+                        Font-family: "Cabin"<br>
+                        Font-weight: 400<br>
+                        Font-size: 18px
+                    </p>
+                </div>
+
+                <div class="page-element-box">
+                    <div id="figcaption-example">figcaption: Figure Caption</div>
+                    <p class="page-element-attributes">
+                        Font-family: "VT323"<br>
+                        Font-weight: 400<br>
+                        Font-size: 30px
+                    </p>
+                </div>
             </section>
         </main>
     </body>
