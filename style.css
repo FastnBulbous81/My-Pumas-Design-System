@@ -60,6 +60,8 @@ p {
 
 .color-label {
     line-height: 130%;
+    position: relative;
+    bottom: 15px;
 }
 
 #dark-green {
@@ -95,7 +97,7 @@ p {
     height: auto;
     border-radius: 8px;
     padding: 0 20px 15px 15px;
-    background-color: rgb(163, 228, 215);
+    background-color: rgb(209, 242, 235);
     font-size: 20px;
 }
 
@@ -144,9 +146,9 @@ p {
     width: 50%;
     height: auto;
     border-radius: 8px;
-    padding: 8px;
+    padding: 0 20px 10px 10px;
     margin: 15px auto;
-    background-color: rgb(133, 193, 233);
+    background-color: rgb(174, 214, 241);
 }
 
 #h1-example {
