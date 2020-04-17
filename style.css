@@ -3,7 +3,7 @@
 header h1 {
     font-size: 80px;
     text-align: center;
-    color: rgba(0, 0, 0, .9);
+    color: rgba(0, 0, 0, .8);
     padding: 50px 0;
     font-family: "Rubik";
 }
@@ -88,26 +88,33 @@ p {
 
 /* Font Section */
 
-.font-box {
+div.font-box {
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 60%;
     border-radius: 8px;
-    padding-bottom: 20px;
+    padding: 0 20px 15px 15px;
     background-color: rgb(163, 228, 215);
     font-size: 20px;
 }
 
 .font-sample {
-    font-size: 4rem;
+    font-size: 2rem;
     font-style: normal;
 }
 
-.font-demo {
+.font-weight {
     font-size: 1.8rem;
     background-color: white;
     border-radius: 5px;
+}
+
+.font-demo {
+    font-family: "VT323";
+    font-size: 1.5rem;
+    height: 20px;
+    padding-bottom: 8px;
 }
 
 #rubik {
@@ -133,8 +140,12 @@ p {
 /* Page Elements Section */
 
 .page-element-box {
-    width: 80%;
-    margin: 0 10%;
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 15px auto;
+    background-color: rgb(133, 193, 233);
 }
 
 #h1-example {
@@ -162,5 +173,9 @@ p {
 }
 
 .page-element-attributes {
-    padding: 0 30%;
+    margin: 4px auto;
+    padding: 7px 14px;
+    background-color: white;
+    border-radius: 5px;
+    width: 180px;
 }
